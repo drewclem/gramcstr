@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <img src="/logo.svg" alt="Gramcstr logo" />
 
         <nav>
-          <a href="/">Contribute</a>
+          <a href="https://github.com/drewclem/gramcstr">Contribute</a>
         </nav>
       </header>
       <main class={styles.main}>{children}</main>
