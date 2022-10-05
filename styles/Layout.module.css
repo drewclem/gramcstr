@@ -2,11 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 0rem;
 }
 
 .header nav a:hover {
   text-decoration: underline;
+}
+
+.header img {
+  height: 50px;
 }
 
 .main {
@@ -19,12 +23,13 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding: 0rem 1rem;
 }
 
 .footer {
   display: flex;
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 1rem 0rem;
 }
 
 .footer a {
@@ -33,8 +38,16 @@
 }
 
 @media (min-width: 768px) {
+  .container {
+    padding: 0rem;
+  }
+
   .header {
     padding: 2rem 0rem;
+  }
+
+  .header img {
+    height: 100px;
   }
 
   .footer {
